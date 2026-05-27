@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .header{
+            height: 300px;
+        }
+        .restaurant{
+            height: 250px;
+            width: 600px;
+        }
+    </style>
+
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-8 text-warning fw-bolder">
+                    <p>Bella Cucina</p>
+                </div>
+                <div class="col-4">
+                    <a href="#" class="fw-bolder m-2">Home</a>
+                    <a href="#" class="m-2">Menu</a>
+                    <a href="#" class="m-2">About</a>
+                    <a href="#" class="m-2">Reservations</a>
+                    <a href="#" class="m-2">Contact</a>
+                </div>
+            </div>
+    </div>
+
+    <div class="header container-fluid bg-primary-subtle text-center d-flex flex-column align-items-center justify-content-center">
+        <h1 class="fw-bolder">Welcome to Bella Cucina</h1>
+        <p>Authentic Italian cuisine made with love, tradition, and the freshest ingredients.</p>
+        <button class="btn btn-warning fw-bolder">Explore Our Menu</button>
+    </div>
+
+    <div class="main container-fluid">
+        <h3 class="text-center pt-4 fw-bolder">Our Signature Dishes</h3>
+
+        <div class="contanier-md">
+            <div class="row">
+                <div class="col-2"></div>
+
+                <div class="col">
+                    <div class="row row-cols-3">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <img src="images/carbonara.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Pasta Carbonara</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                     <p class="text-warning fw-bold">$18.99</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <img src="images/pizza.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Margherita Pizza</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <p class="text-warning fw-bold">$15.99</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                    <img src="images/tiramisu.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Tiramisu</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <p class="text-warning fw-bold">$9.99</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+
+                <div class="col-2"></div>
+            </div>
+        
+
+
+        </div>
+
+
+    </div>
+
+    <div class="details container-fluid">
+        
+                 <div class="row row-cols-2 mt-5 mx-5 px-5">
+                    <div class="col">
+                        <img class="restaurant" src="images/resta.webp">
+                    </div>
+                    <div class="col">
+                    <h3 class="fw-bold">Our Story</h3>
+                    <p>Founded in 2010, Bella Cucina brings the heart of Italy to your table. Our chef, Marco Rossi, trained in Naples and brings over 20 years of culinary passion to every dish.</p>
+                    <p>We source our ingredients from local farms and import specialty items directly from Italian artisians to ensure authentic dining experience.</p>
+                    <button class="btn btn-outline-secondary">Learn Mores</button>
+                    </div>
+                 </div>
+
+    </div>
+
+    <div class="form container-md mt-4">
+        <div class="row">
+            <div class="col-2"></div>
+
+            <div class="col mt-5">
+
+                <h3 class="fw-bolder">Make a Reservation</h3>
+
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="mb-3">
+                             <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-3">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="mb-3">
+                             <label for="exampleInputEmail1" class="form-label">Date</label>
+                            <input type="time" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Number of Guests</label>
+                           <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Special Requests</p>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>
+                </div>
+
+                <button class="btn btn-warning fw-bolder mt-3">Reserve Table</button>
+
+            </div>
+
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="mt-5 container-fluid bg-primary-subtle" style="height: 250px;">
+
+        <div class="container-md pt-4">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <h4 class="fw-bolder text-warning">Bella Cucina</h3>
+                    <p class="text-white">Authentic italian dining since 2010. Every plate tells a story.</p>
+                </div>
+
+                <div class="col">
+                    <h4 class="fw-bolder text-white">Quick Links</h4>
+                    <a href="#" class="text-warning">Home</a><br>
+                    <a href="#" class="text-warning">Menu</a><br>
+                    <a href="#" class="text-warning">Reservations</a><br>
+                    <a href="#" class="text-warning">Contact</a><br>
+                </div>
+
+                <div class="col text-white">
+                    <h4 class="fw-bolder">Contact Us</h4>
+                    <p>123 Via Roma, Downtown</p>
+                    <p>(555) 123-4567</p>
+                    <p>info@bellacucina.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-top border-black ">
+            <div class="mt-3">
+                <p class="text-center">2026 Bella Cucina. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
